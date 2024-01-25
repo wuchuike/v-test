@@ -10,6 +10,11 @@ import TheWelcome from './components/TheWelcome.vue'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
+    <div>
+      <router-link to="/to/about">
+        前往关于
+      </router-link>
+    </div>
   </header>
 
   <main>
